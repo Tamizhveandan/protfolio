@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Fullstack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "UI/UX Designer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "competitive programmer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "leetcoder",
       icon: creator,
     },
   ];
@@ -116,55 +116,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Education",
+      company_name: "school",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "- April 2019",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "SBOA MATRIC HIGHER SECONDARY SCHOOL"
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Education",
+      company_name: "college",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2019 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "RMK ENGINEERING COLLEGE - B.E MECHANICAL"
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Programming",
+      company_name: "languages and tools",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "I enjoy writing clean code and creating useful products.",
+        "LANGUAGES","->  Python , Java , C, C++ , Javascript , powershell",
+        "TOOLS","->  VScode,pycharm"
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Web Developement",
+      company_name: "languages and tools",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "It's fun for me to bring new concepts to life. I consider myself fortunate to be a frontend developer because my work has a direct impact on the user's life.",
+        "LANGUAGES","->  HTML , CSS ,Javascript , REACT , SASS , Bootstrap , Tailwind CSS , Firebase , Express.js , MYSQL",
+        "TOOLS","->  VScode , Figma , Github"
       ],
     },
   ];

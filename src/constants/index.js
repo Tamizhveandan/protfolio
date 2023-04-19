@@ -72,18 +72,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    // {
+    //   name: "Redux Toolkit",
+    //   icon: redux,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -96,10 +96,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -108,10 +108,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -143,8 +143,8 @@ import {
       date: "",
       points: [
         "I enjoy writing clean code and creating useful products.",
-        "LANGUAGES","->  Python , Java , C, C++ , Javascript , powershell",
-        "TOOLS","->  VScode,pycharm"
+        "LANGUAGES :","->  Python , Java , C, C++ , Javascript , powershell",
+        "TOOLS : ","->  VScode,pycharm"
       ],
     },
     {
@@ -155,8 +155,8 @@ import {
       date: "",
       points: [
         "It's fun for me to bring new concepts to life. I consider myself fortunate to be a frontend developer because my work has a direct impact on the user's life.",
-        "LANGUAGES","->  HTML , CSS ,Javascript , REACT , SASS , Bootstrap , Tailwind CSS , Firebase , Express.js , MYSQL",
-        "TOOLS","->  VScode , Figma , Github"
+        "LANGUAGES :","->  HTML , CSS ,Javascript , REACT , SASS , Bootstrap , Tailwind CSS , Firebase , Express.js , MYSQL",
+        "TOOLS :","->  VScode , Figma , Github"
       ],
     },
   ];
@@ -186,6 +186,7 @@ import {
       company: "456 Enterprises",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
+    
   ];
   
   const projects = [
@@ -229,6 +230,27 @@ import {
         },
       ],
       image: jobit,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
       source_code_link: "https://github.com/",
     },
     {

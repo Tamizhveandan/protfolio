@@ -23,9 +23,16 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
+        
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+        
+        <div onClick={() => window.open("https://drive.google.com/file/d/1Pr93RRFHg8DzNz55IuUhi4N30n2bEEHZ/view?usp=share_link", "_blank")} >
+
+     
+        <div className='relative w-full h-[230px]'
+          
+        >
           <img
             src={image}
             alt='project_image'
@@ -60,6 +67,7 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+        </div>
         </div>
       </Tilt>
     </motion.div>

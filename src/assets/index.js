@@ -30,6 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import hackerrank_python from './hackerrank python.png';
+import skillrack_python from './python hands-on skillrack.png';
+import resume from './resume.png';
+import skillrack_sql from './sql skillrack.png'
+import skillrack from './skillrack.jpg'
+import prototype1 from './hangman prototype.png'
+
 export {
   logo,
   backend,
@@ -59,4 +66,11 @@ export {
   carrent,
   jobit,
   tripguide,
+
+  skillrack,
+  skillrack_python,
+  skillrack_sql,
+  resume,
+  hackerrank_python,
+  prototype1
 };

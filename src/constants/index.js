@@ -1,3 +1,4 @@
+
 import {
     mobile,
     backend,
@@ -23,6 +24,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    skillrack,
+    skillrack_python,
+    skillrack_sql,
+    resume,
+    hackerrank_python,
+    prototype1
   } from "../assets";
   
   export const navLinks = [
@@ -161,33 +168,133 @@ import {
     },
   ];
   
-  const testimonials = [
+  const feats = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Resume",
+      description:"",
+      tags: [
+        {
+          name: "skills",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "projects",
+          color: "green-text-gradient",
+        },
+        {
+          name: "achievements",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: resume,
+      source_code_link: "https://drive.google.com/file/d/1Pr93RRFHg8DzNz55IuUhi4N30n2bEEHZ/view?usp=share_link",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Skillrack",
+      description:"Profile",
+      tags: [
+        {
+          name: "competitive programming",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "java",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: skillrack,
+      source_code_link:"https://www.skillrack.com/faces/resume.xhtml?id=259532&key=44efbe0a168661caadd8c2339165cdcba33f9d2e",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Python",
+      description:"Hackerrank Certificate",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "DSA",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OOPS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: hackerrank_python,
+      source_code_link:" https://www.hackerrank.com/certificates/ae130fdc7787",
+    },
+    
+    {
+      name: "MYSQL hands-on",
+      description:"Skillrack Certificate",
+      tags: [
+        {
+          name: "SQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "database",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MYSQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: skillrack_sql,
+      source_code_link:"https://www.skillrack.com/cert/315789/OSX",
+    },
+    {
+      name: "Certificates",
+      description:"Other Certificate",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Time management",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OOPS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: skillrack_python,
+      source_code_link:"https://drive.google.com/drive/folders/1F1Jp_tuaPD5fhV2wPpnXkaiXj1qZY7jB?usp=share_link",
+    },
+    {
+      name: "FIGMA",
+      description:"Prototype",
+      tags: [
+        {
+          name: "figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "UI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "prototypw",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: prototype1,
+      source_code_link:"https://www.figma.com/proto/ndbhUqOLOmMN7z4KaCRpEl/hangman?node-id=0-1",
     },
     
   ];
+  
+
+
   
   const projects = [
     {
@@ -276,4 +383,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, feats, projects };

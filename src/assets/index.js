@@ -20,15 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import firebase from './firebase.png'
+import bootstrap from './bootstrap.png'
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import sboa from './sboa.gif'
+import programming from './programming.gif'
+import rmk from './rmk.gif'
+import web_dev from './web developing.gif'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 import hackerrank_python from './hackerrank python.png';
 import skillrack_python from './python hands-on skillrack.png';
@@ -36,6 +36,12 @@ import resume from './resume.png';
 import skillrack_sql from './sql skillrack.png'
 import skillrack from './skillrack.jpg'
 import prototype1 from './hangman prototype.png'
+
+import games from './games.png'
+import event from './event.png'
+import notes from './notes.png'
+import urlShortener from "./urlShortener.png"
+
 
 export {
   logo,
@@ -59,18 +65,23 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  bootstrap,
+  firebase,
+  
+  web_dev,
+  rmk,
+  sboa,
+  programming,
 
   skillrack,
   skillrack_python,
   skillrack_sql,
   resume,
   hackerrank_python,
-  prototype1
+  prototype1,
+
+  games,
+  event,
+  urlShortener,
+  notes
 };

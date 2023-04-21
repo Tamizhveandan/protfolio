@@ -15,21 +15,23 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     skillrack,
     skillrack_python,
     skillrack_sql,
     resume,
     hackerrank_python,
-    prototype1
+    prototype1,
+    games,
+    event,
+    urlShortener,
+    notes,
+    firebase,
+    bootstrap,
+    web_dev,
+    rmk,
+    sboa,
+    programming,
   } from "../assets";
   
   export const navLinks = [
@@ -119,13 +121,21 @@ import {
     //   name: "docker",
     //   icon: docker,
     // },
+    {
+      name: "firebase",
+      icon:firebase
+    },
+    {
+      name: "bootstrap",
+      icon:bootstrap
+    }
   ];
   
   const experiences = [
     {
       title: "Education",
       company_name: "school",
-      icon: starbucks,
+      icon: sboa,
       iconBg: "#383E56",
       date: "- April 2019",
       points: [
@@ -135,7 +145,7 @@ import {
     {
       title: "Education",
       company_name: "college",
-      icon: tesla,
+      icon: rmk,
       iconBg: "#E6DEDD",
       date: "Aug 2019 - April 2023",
       points: [
@@ -145,7 +155,7 @@ import {
     {
       title: "Programming",
       company_name: "languages and tools",
-      icon: shopify,
+      icon: programming,
       iconBg: "#383E56",
       date: "",
       points: [
@@ -157,7 +167,7 @@ import {
     {
       title: "Web Developement",
       company_name: "languages and tools",
-      icon: meta,
+      icon: web_dev,
       iconBg: "#E6DEDD",
       date: "",
       points: [
@@ -169,7 +179,29 @@ import {
   ];
   
   const feats = [
+    // {
+      
+    //   name: "leetcode stats",
+    //   description:"",
+    //   tags: [
+    //     {
+    //       name: "python",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "OOPS",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "DSA",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: "https://leetcard.jacoblin.cool/tamizh007?theme=unicorn&font=Epilogue&ext=contest",
+    //   source_code_link: " https://leetcode.com/tamizh007/",
+    // },
     {
+      
       name: "Resume",
       description:"",
       tags: [
@@ -251,6 +283,26 @@ import {
       source_code_link:"https://www.skillrack.com/cert/315789/OSX",
     },
     {
+      name: "FIGMA",
+      description:"Prototype",
+      tags: [
+        {
+          name: "figma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "UI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "prototype",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: prototype1,
+      source_code_link:"https://www.figma.com/proto/ndbhUqOLOmMN7z4KaCRpEl/hangman?node-id=0-1",
+    },
+    {
       name: "Certificates",
       description:"Other Certificate",
       tags: [
@@ -270,26 +322,7 @@ import {
       image: skillrack_python,
       source_code_link:"https://drive.google.com/drive/folders/1F1Jp_tuaPD5fhV2wPpnXkaiXj1qZY7jB?usp=share_link",
     },
-    {
-      name: "FIGMA",
-      description:"Prototype",
-      tags: [
-        {
-          name: "figma",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "UI",
-          color: "green-text-gradient",
-        },
-        {
-          name: "prototypw",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: prototype1,
-      source_code_link:"https://www.figma.com/proto/ndbhUqOLOmMN7z4KaCRpEl/hangman?node-id=0-1",
-    },
+    
     
   ];
   
@@ -298,88 +331,96 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Games",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web application that includes three exciting games Tic-tac-toe, Hangman, and Flames. It's an all-in-one platform that offers users a range of fun activities to enjoy.",
       tags: [
         {
-          name: "react",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: games,
+      source_code_link: "https://github.com/Tamizhveandan/BT7-games",
+      web_link: "https://bangtan-games.web.app/"
+
     },
     {
-      name: "Job IT",
+      name: "Notes & To-Dos",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web application organizing your notes and to-do lists! With this app, you can easily create, edit, and delete notes and todos, and keep track of all your tasks in one place.",
       tags: [
         {
-          name: "react",
+          name: "Bootstrap",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "DOM",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Firebase database",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: notes,
+      source_code_link: "https://github.com/Tamizhveandan/notes",
+      web_link: "https://bangtan-notes.web.app/"
+
     },
     {
-      name: "Trip Guide",
+      name: "URL Shortener",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A URL shortener web app is a tool that takes a long URL and generates a shorter, more compact URL that redirects to the original URL withcopy-to-clipboard button feature.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "shrtco API",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: urlShortener,
+      source_code_link: "https://github.com/Tamizhveandan/bangtan-urlshortener",
+      web_link: "https://bangtan-urlshortener.web.app/"
+
     },
     {
-      name: "Trip Guide",
+      name: "Event Page",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "The event registration web app for a college symposium is a user-friendly app that allows attendees to sign up for the event, and it's easy to use and navigate.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "SASS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: event,
+      source_code_link: "https://github.com/Tamizhveandan/impulse2k22",
+      web_link: "https://bangtan-impulse2k22.web.app/"
+
     },
   ];
   

@@ -133,6 +133,10 @@ const Feats = () => {
         </motion.div>
       </div>
       <Slider {...settings} className={`${styles.paddingX} -mt-20 pb-14 gap-7 flex items-center`}>
+      <div onClick={() => window.open(" https://leetcode.com/tamizh007/", "_blank")}>
+      <img src="https://leetcard.jacoblin.cool/tamizh007?theme=unicorn&font=Epilogue&ext=contest" alt="LeetCode Stats" />
+      <h3 className='mt-2 text-white font-bold text-[24px]'>Leetcode stats</h3>
+      </div>
         {feats.map((feats,index) =>(
           <FeatsCard
             key={feats.name}

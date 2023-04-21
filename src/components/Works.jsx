@@ -14,6 +14,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  web_link
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -27,7 +28,7 @@ const ProjectCard = ({
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
         
-        <div onClick={() => window.open("https://drive.google.com/file/d/1Pr93RRFHg8DzNz55IuUhi4N30n2bEEHZ/view?usp=share_link", "_blank")} >
+        <div onClick={() => window.open(web_link, "_blank")} >
 
      
         <div className='relative w-full h-[230px]'

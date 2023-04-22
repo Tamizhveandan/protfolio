@@ -98,6 +98,10 @@ import {
       icon: tailwind,
     },
     {
+      name: "bootstrap",
+      icon:bootstrap
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -109,14 +113,7 @@ import {
     //   name: "Three JS",
     //   icon: threejs,
     // },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    
     // {
     //   name: "docker",
     //   icon: docker,
@@ -125,10 +122,15 @@ import {
       name: "firebase",
       icon:firebase
     },
+    
     {
-      name: "bootstrap",
-      icon:bootstrap
-    }
+      name: "git",
+      icon: git,
+    },
+    {
+      name: "figma",
+      icon: figma,
+    },
   ];
   
   const experiences = [
@@ -159,7 +161,7 @@ import {
       iconBg: "#383E56",
       date: "",
       points: [
-        "I enjoy writing clean code and creating useful products.",
+        "I find joy in the art of crafting code that is both beautiful and functional.",
         "LANGUAGES :","->  Python , Java , C, C++ , Javascript , powershell",
         "TOOLS : ","->  VScode,pycharm"
       ],
@@ -171,9 +173,9 @@ import {
       iconBg: "#E6DEDD",
       date: "",
       points: [
-        "It's fun for me to bring new concepts to life. I consider myself fortunate to be a frontend developer because my work has a direct impact on the user's life.",
+        "I love the creative challenge of turning complex designs into intuitive, user-friendly interfaces.",
         "LANGUAGES :","->  HTML , CSS ,Javascript , REACT , SASS , Bootstrap , Tailwind CSS , Firebase , Express.js , MYSQL",
-        "TOOLS :","->  VScode , Figma , Github"
+        "TOOLS :","->  VScode , Figma , Github , Canva"
       ],
     },
   ];

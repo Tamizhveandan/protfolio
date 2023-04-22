@@ -42,6 +42,9 @@ import event from './event.png'
 import notes from './notes.png'
 import urlShortener from "./urlShortener.png"
 
+import facebook from './facebook.png'
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
 
 export {
   logo,
@@ -83,5 +86,9 @@ export {
   games,
   event,
   urlShortener,
-  notes
+  notes,
+
+  facebook, 
+  instagram ,
+  linkedin 
 };

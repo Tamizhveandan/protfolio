@@ -5,7 +5,7 @@ import {styles} from "../styles";
 import {EarthCanvas} from "./canvas";
 import {SectionWrapper} from "../hoc";
 import { slideIn } from '../utils/motion';
-
+import {facebook, instagram , linkedin , github} from '../assets'
 
 
 
@@ -65,7 +65,35 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
+        <div className='mt-5 w-full flex flex-row justify-around'>
+          <img
+            src={linkedin}
+            alt='source code'
+            className='w-10 h-10 object-contain hover:scale-125 cursor-pointer'
+            onClick={()=>window.open("https://www.linkedin.com/in/tamizhveandan","_blank")}
+          />
+          <img
+            src={github}
+            alt='source code'
+            className='w-10 h-10 object-contain hover:scale-125 cursor-pointer'
+            onClick={()=>window.open("https://github.com/tamizhveandan","_blank")}
+          />
+          <img
+            src={instagram}
+            alt='source code'
+            className='w-10 h-10 object-contain hover:scale-125 cursor-pointer'
+            onClick={()=>window.open("https://www.instagram.com/bangtantamizh007/","_blank")}
+          />
+          <img
+            src={facebook}
+            alt='source code'
+            className='w-10 h-10 object-contain hover:scale-125 cursor-pointer'
+            onClick={()=>window.open("https://www.facebook.com/profile.php?id=100009127902009","_blank")}
+          />
+        </div>
+        <p className={`${styles.sectionSubText} w-full flex justify-center mt-3`}>or</p>
+        
         <form ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
@@ -113,7 +141,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-
+         
       </motion.div>
 
 

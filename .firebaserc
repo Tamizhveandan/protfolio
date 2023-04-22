@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "tamizhveandand"
+  },
+  "targets": {
+    "tamizhveandand": {
+      "hosting": {
+        "tamizhveandan": [
+          "tamizhveandand"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

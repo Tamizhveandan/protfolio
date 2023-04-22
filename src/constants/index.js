@@ -381,7 +381,7 @@ import {
     {
       name: "URL Shortener",
       description:
-        "A URL shortener web app is a tool that takes a long URL and generates a shorter, more compact URL that redirects to the original URL withcopy-to-clipboard button feature.",
+        "A URL shortener web app is a tool that takes a long URL and generates a shorter, more compact URL that redirects to the original URL with copy-to-clipboard button feature.",
       tags: [
         {
           name: "React",

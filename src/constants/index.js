@@ -26,6 +26,7 @@ import {
     event,
     urlShortener,
     notes,
+    fitness,
     firebase,
     bootstrap,
     web_dev,
@@ -422,6 +423,29 @@ import {
       image: event,
       source_code_link: "https://github.com/Tamizhveandan/impulse2k22",
       web_link: "https://bangtan-impulse2k22.web.app/"
+
+    },
+    {
+      name: "Fitness",
+      description:
+        "This app includes all types of exercises which as ability to search for exercises by body part, target muscle, equipment, and more. It's a great tool to improve their fitness.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "green-text-gradient",
+        },
+        {
+          name: "RAPID API",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fitness,
+      source_code_link: "https://github.com/Tamizhveandan/fitness-exercise",
+      web_link: "https://cr-fitness.web.app/"
 
     },
   ];

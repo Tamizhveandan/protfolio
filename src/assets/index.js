@@ -41,6 +41,7 @@ import games from './games.png'
 import event from './event.png'
 import notes from './notes.png'
 import urlShortener from "./urlShortener.png"
+import fitness from './fitness.png'
 
 import facebook from './facebook.png'
 import instagram from './instagram.png'
@@ -87,6 +88,7 @@ export {
   event,
   urlShortener,
   notes,
+  fitness,
 
   facebook, 
   instagram ,
